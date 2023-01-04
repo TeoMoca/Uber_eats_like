@@ -1,0 +1,3 @@
+[submodule "Uber_eats_like_web_app"]
+	path = Uber_eats_like_web_app
+	url = https://github.com/TeoMoca/Uber_eats_like_web_app.git
