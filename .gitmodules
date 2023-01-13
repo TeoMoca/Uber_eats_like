@@ -4,3 +4,6 @@
 [submodule "UsersAPI"]
 	path = UsersAPI
 	url = https://github.com/Victorien-Goudeau/UsersAPI.git
+[submodule "PaymentAPI"]
+	path = PaymentAPI
+	url = https://github.com/Victorien-Goudeau/PaymentAPI.git
