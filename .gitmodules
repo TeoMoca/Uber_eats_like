@@ -7,3 +7,6 @@
 [submodule "PaymentAPI"]
 	path = PaymentAPI
 	url = https://github.com/Victorien-Goudeau/PaymentAPI.git
+[submodule "AuthApi"]
+	path = AuthApi
+	url = https://github.com/TeoMoca/AuthApi.git
