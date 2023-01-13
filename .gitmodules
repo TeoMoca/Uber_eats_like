@@ -1,3 +1,6 @@
 [submodule "Uber_eats_like_web_app"]
 	path = Uber_eats_like_web_app
 	url = https://github.com/TeoMoca/Uber_eats_like_web_app.git
+[submodule "UsersAPI"]
+	path = UsersAPI
+	url = https://github.com/Victorien-Goudeau/UsersAPI.git
