@@ -13,3 +13,6 @@
 [submodule "catalog-service"]
 	path = catalog-service
 	url = https://github.com/R1leMargoulin/catalog-service.git
+[submodule "notification-service"]
+	path = notification-service
+	url = https://github.com/R1leMargoulin/notification-service.git
