@@ -10,3 +10,6 @@
 [submodule "AuthApi"]
 	path = AuthApi
 	url = https://github.com/TeoMoca/AuthApi.git
+[submodule "CommandAPI"]
+	path = CommandAPI
+	url = https://github.com/Victorien-Goudeau/CommandAPI.git
