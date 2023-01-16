@@ -10,6 +10,12 @@
 [submodule "AuthApi"]
 	path = AuthApi
 	url = https://github.com/TeoMoca/AuthApi.git
+[submodule "catalog-service"]
+	path = catalog-service
+	url = https://github.com/R1leMargoulin/catalog-service.git
+[submodule "notification-service"]
+	path = notification-service
+	url = https://github.com/R1leMargoulin/notification-service.git
 [submodule "CommandAPI"]
 	path = CommandAPI
 	url = https://github.com/Victorien-Goudeau/CommandAPI.git
