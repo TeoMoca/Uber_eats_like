@@ -16,3 +16,6 @@
 [submodule "notification-service"]
 	path = notification-service
 	url = https://github.com/R1leMargoulin/notification-service.git
+[submodule "CommandAPI"]
+	path = CommandAPI
+	url = https://github.com/Victorien-Goudeau/CommandAPI.git
