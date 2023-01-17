@@ -22,3 +22,6 @@
 [submodule "restaurant-service"]
 	path = restaurant-service
 	url = https://github.com/clementesnault/restaurant-service.git
+[submodule "command-service"]
+	path = command-service
+	url = https://github.com/R1leMargoulin/command-service.git
