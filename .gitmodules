@@ -19,3 +19,6 @@
 [submodule "CommandAPI"]
 	path = CommandAPI
 	url = https://github.com/Victorien-Goudeau/CommandAPI.git
+[submodule "restaurant-service"]
+	path = restaurant-service
+	url = https://github.com/clementesnault/restaurant-service.git
