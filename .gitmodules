@@ -25,3 +25,6 @@
 [submodule "command-service"]
 	path = command-service
 	url = https://github.com/R1leMargoulin/command-service.git
+[submodule "apiLivraison"]
+	path = apiLivraison
+	url = https://github.com/JNiat/apiLivraison.git
