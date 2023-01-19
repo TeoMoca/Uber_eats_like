@@ -28,3 +28,6 @@
 [submodule "apiLivraison"]
 	path = apiLivraison
 	url = https://github.com/JNiat/apiLivraison.git
+[submodule "AppDev"]
+	path = AppDev
+	url = https://github.com/Victorien-Goudeau/AppDev.git
