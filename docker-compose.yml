@@ -1,0 +1,45 @@
+version: "3"
+services:
+  auth:
+    build: AuthApi/.
+  livraison:
+    build: apiLivraison/server/.
+    depends_on:
+      - mongo
+  catalog:
+    build: catalog-service/.
+    depends_on:
+      - mongo
+  commands:
+    build: command-service/.
+    depends_on:
+      - mongo
+  notifications:
+    build: notification-service/.
+    depends_on:
+      - mongo
+  payment:
+    build: PaymentAPI/.
+    depends_on:
+      - mongo
+  restaurants:
+    build: restaurant-service/.
+    depends_on:
+      - mongo
+  users:
+    build: UsersAPI/.
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:latest
+    restart: always
+    volumes:
+      - "/var/lib/mongo:/data/db"
+    ports:
+      - "27017:27017"
+  nginx:
+    image: "nginx"
+    ports:
+      - "8000:8000"
+    volumes:
+      - "./Nginx/nginx.conf:/etc/nginx/nginx.conf:ro"
