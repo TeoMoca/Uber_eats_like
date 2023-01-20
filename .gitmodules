@@ -31,3 +31,6 @@
 [submodule "AppDev"]
 	path = AppDev
 	url = https://github.com/Victorien-Goudeau/AppDev.git
+[submodule "Nginx"]
+	path = Nginx
+	url = https://github.com/TeoMoca/Nginx.git
